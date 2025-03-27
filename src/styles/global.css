@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #239d94;
+  --primary-dark: #1a7b74;
+  --primary-light: #b2e4e0;
+  --accent: #6366f1;
+  --background: #f9fafb;
+  --card: #ffffff;
+  --text-dark: #1e293b;
+  --text-light: #64748b;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: var(--background);
+  color: var(--text-dark);
+}
+
+.text-blue-gradient {
+  background: linear-gradient(135deg, #239d94, #2dd4c8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-blue-gradient {
+  background: linear-gradient(135deg, #239d94, #2dd4c8);
+}
+
+.glass-effect {
+  @apply bg-white/80 backdrop-blur-md border border-white/20;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

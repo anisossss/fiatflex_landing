@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;500;600&display=swap");
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #121212;
+  color: #FFFFFF;
+}
+
+/* Dark theme gradient for primary background */
+.bg-primary {
+  background: linear-gradient(130deg, #239D94, #86CCB3);
+}
+
+/* Gradient text similar to your original design */
+.text-blue-gradient {
+  background: linear-gradient(
+    283deg,
+    #ff4b5c,
+    #ff758f,
+    #ff3e73,
+    #e60073
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Additional dark theme utilities */
+.dark-bg {
+  background-color: #1A1A1A;
+}
+
+.dark-card {
+  background-color: #1E1E1E;
+  border: 1px solid #2C2C2C;
+}
+
+.text-muted {
+  color: #B0B0B0;
+}
