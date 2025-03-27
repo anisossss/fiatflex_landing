@@ -35,7 +35,7 @@ export default function Navbar() {
         {/* Logo & Desktop Menu */}
         <div className="flex items-center">
           <img
-            src={"/assets/logo.png"}
+            src={"/assets/logo.svg"}
             className="mr-6"
             alt="Neva"
             width={60}

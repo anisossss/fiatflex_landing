@@ -8,7 +8,7 @@ export default function PaymentHero() {
     <section className="relative pt-[140px] pb-28 overflow-hidden bg-gradient-to-r from-[#f8f9fa] to-[#e9ecef] flex justify-center">
       <span className="absolute bg-[#239d94] opacity-10 -left-28 -top-28 rounded-full blur-3xl aspect-square h-[350px] -z-10 animate-pulse" />
       <span className="absolute bg-gradient-to-br from-[#239d94] to-[#1a7b74] -right-28 -bottom-28 rounded-full opacity-[15%] blur-3xl delay-700 duration-1000 aspect-square h-[550px] -z-10" />
-      <div className="container mx-auto grid md:grid-cols-2 items-center text-center md:text-left max-w-6xl">
+      <div className="container mx-auto grid md:grid-cols-2 items-center text-center md:text-left max-w-_xl">
         <div className="flex justify-center">
           <div className="space-y-4 max-w-2xl">
             <p className="text-[#239d94] font-medium">
@@ -41,7 +41,7 @@ export default function PaymentHero() {
           <img
             src="/assets/screenleft.png"
             alt="Passerelle de Paiement Crypto"
-            className="max-w-[300px]"
+            className="max-w-[280px]"
           />
         </div>
       </div>

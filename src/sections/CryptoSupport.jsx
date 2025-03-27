@@ -121,7 +121,7 @@ export default function CryptoSupport() {
                   className="absolute top-1/2 right-1/2 mr-6 p-4 rounded-full bg-white shadow-lg animate-float"
                   style={{ animationDelay: "1s" }}
                 >
-                  <img src="/assets/usdt.svg" alt="USDT" width={160} />
+                  <img src="/assets/usdt.png" alt="USDT" width={160} />
                 </div>
 
                 {/* USDC coin */}
@@ -129,7 +129,7 @@ export default function CryptoSupport() {
                   className="absolute bottom-1/4 left-1/3 p-4 rounded-full bg-white shadow-lg animate-float"
                   style={{ animationDelay: "1s" }}
                 >
-                  <img src="/assets/usdc.svg" alt="USDC" width={160} />
+                  <img src="/assets/usdc.png" alt="USDC" width={160} />
                 </div>
 
                 {/* Solana coin */}
@@ -137,7 +137,7 @@ export default function CryptoSupport() {
                   className="absolute top-1/2 left-1/2 p-4 rounded-full bg-white shadow-lg animate-float"
                   style={{ animationDelay: "1.5s" }}
                 >
-                  <img src="/assets/solanaa.svg" alt="SOL" width={160} />
+                  <img src="/assets/solanaa.png" alt="SOL" width={160} />
                 </div>
               </div>
             </div>
