@@ -7,22 +7,34 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8 mb-10">
           <div>
-            <img src="/assets/logo.png" alt="Logo" className="h-20 mb-4" />
+            <img src="/assets/logo.svg" alt="Logo" className="h-20 mb-4" />
             <p className="text-gray-600 mb-4">
               Votre passerelle de paiement crypto-fiat pour simplifier vos
               transactions internationales.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-[#239d94] hover:text-[#1a7b74]">
+              <a
+                href="https://facebook.com"
+                className="text-[#239d94] hover:text-[#1a7b74]"
+              >
                 <BsFacebook size={20} />
               </a>
-              <a href="#" className="text-[#239d94] hover:text-[#1a7b74]">
+              <a
+                href="https://x.com"
+                className="text-[#239d94] hover:text-[#1a7b74]"
+              >
                 <BsTwitter size={20} />
               </a>
-              <a href="#" className="text-[#239d94] hover:text-[#1a7b74]">
+              <a
+                href="https://linkedin.com"
+                className="text-[#239d94] hover:text-[#1a7b74]"
+              >
                 <BsLinkedin size={20} />
               </a>
-              <a href="#" className="text-[#239d94] hover:text-[#1a7b74]">
+              <a
+                href="https://instagram.com"
+                className="text-[#239d94] hover:text-[#1a7b74]"
+              >
                 <BsInstagram size={20} />
               </a>
             </div>
