@@ -1,5 +1,6 @@
 import React from "react";
-import { BsFacebook, BsTwitter, BsLinkedin, BsInstagram } from "react-icons/bs";
+import { BsFacebook, BsLinkedin, BsInstagram } from "react-icons/bs";
+import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -23,7 +24,7 @@ export default function Footer() {
                 href="https://x.com"
                 className="text-[#239d94] hover:text-[#1a7b74]"
               >
-                <BsTwitter size={20} />
+                <FaXTwitter size={20} />
               </a>
               <a
                 href="https://linkedin.com"
