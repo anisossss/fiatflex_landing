@@ -15,12 +15,6 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://facebook.com"
-                className="text-[#239d94] hover:text-[#1a7b74]"
-              >
-                <BsFacebook size={20} />
-              </a>
-              <a
                 href="https://x.com"
                 className="text-[#239d94] hover:text-[#1a7b74]"
               >
@@ -31,6 +25,12 @@ export default function Footer() {
                 className="text-[#239d94] hover:text-[#1a7b74]"
               >
                 <BsLinkedin size={20} />
+              </a>
+              <a
+                href="https://facebook.com"
+                className="text-[#239d94] hover:text-[#1a7b74]"
+              >
+                <BsFacebook size={20} />
               </a>
               <a
                 href="https://instagram.com"

@@ -5,14 +5,21 @@ import { BsChevronDown } from "react-icons/bs";
 
 export default function PaymentHero() {
   return (
-    <section className="relative pt-[140px] pb-28 overflow-hidden bg-gradient-to-r from-[#f8f9fa] to-[#e9ecef] flex justify-center">
-      <span className="absolute bg-[#239d94] opacity-10 -left-28 -top-28 rounded-full blur-3xl aspect-square h-[350px] -z-10 animate-pulse" />
-      <span className="absolute bg-gradient-to-br from-[#239d94] to-[#1a7b74] -right-28 -bottom-28 rounded-full opacity-[15%] blur-3xl delay-700 duration-1000 aspect-square h-[550px] -z-10" />
+    <section className="relative pt-[140px] pb-28 overflow-hidden bg-gradient-to-r from-[#239d9515] to-[#e9ecef00] flex justify-center">
+      {/* Futuristic background with grid */}
+      <div
+        className="absolute inset-0 opacity-5"
+        style={{
+          backgroundImage: `linear-gradient(#239d94 1px, transparent 1px), linear-gradient(to right, #239d94 1px, transparent 1px)`,
+          backgroundSize: "40px 40px",
+        }}
+      />
+      <span className="absolute bg-gradient-to-br from-[#239d94] to-[#239d94] -right-28 -bottom-28 rounded-full opacity-[15%] blur-3xl delay-700 duration-1000 aspect-square h-[550px] -z-10" />
       <div className="container mx-auto grid md:grid-cols-2 items-center text-center md:text-left max-w-_xl">
         <div className="flex justify-center">
           <div className="space-y-4 max-w-2xl">
             <p className="text-[#239d94] font-medium">
-              PASSERELLE DE PAIEMENT POUR MARCHANDS
+              SOLUTION DE PAIEMENT EN CRYPTOMONNAIES RAPIDE ET SÉCURISÉE
             </p>
             <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold leading-normal my-4">
               <span className="break-words">Transformez vos </span>
