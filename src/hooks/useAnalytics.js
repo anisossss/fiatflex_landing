@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import ReactGA from "react-ga4";
 
-const GA_ID = "G-PX31ELZ005";
+const GA_ID = "G-K3HK20Q86G";
 
 export const useAnalytics = () => {
   useEffect(() => {
